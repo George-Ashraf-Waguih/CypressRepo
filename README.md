@@ -19,7 +19,7 @@ Designed with **Page Object Model (POM)**, fixtures, reusable commands, and read
 ---
 
 ## 📂 Project Structure
-
+```plaintext
 CypressRepo/
 │
 ├── cypress/
