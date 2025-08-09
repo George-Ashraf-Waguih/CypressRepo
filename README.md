@@ -34,6 +34,14 @@ CypressRepo/
 ├── package.json            # Project dependencies
 └── README.md               # Project documentation
 
+🔧 Configuration
+Modify cypress.config.js for environment-specific settings.
+
+Store reusable data in /fixtures.
+
+Use /pages for POM-based selectors and page methods.
+
+
 👨‍💻 Author
 George Ashraf
 💼 https://www.linkedin.com/in/george-ashraf/
