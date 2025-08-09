@@ -19,7 +19,7 @@ Designed with **Page Object Model (POM)**, fixtures, reusable commands, and read
 ---
 
 ## 📂 Project Structure
-```plaintext
+
 CypressRepo/
 │
 ├── cypress/
@@ -32,7 +32,8 @@ CypressRepo/
 ├── package.json            # Project dependencies
 └── README.md               # Project documentation
 
-🔧 Configuration
+## 🔧 Configuration
+
 Modify cypress.config.js for environment-specific settings.
 
 Store reusable data in /fixtures.
