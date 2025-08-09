@@ -32,6 +32,8 @@ CypressRepo/
 ├── package.json            # Project dependencies
 └── README.md               # Project documentation
 
+---
+
 ## 🔧 Configuration
 
 Modify cypress.config.js for environment-specific settings.
