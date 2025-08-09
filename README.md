@@ -1,8 +1,6 @@
 # CypressRepo 🚀  
 ![Cypress](https://img.shields.io/badge/Cypress-12.x-brightgreen?logo=cypress)
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 
 A **Cypress automation testing framework** for UI and API testing.  
 Designed with **Page Object Model (POM)**, fixtures, reusable commands, and ready for CI/CD integration.
