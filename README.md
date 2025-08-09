@@ -30,21 +30,28 @@ CypressRepo/
 ├── cypress.config.js       # Cypress configuration
 ├── package.json            # Project dependencies
 └── README.md               # Project documentation
+```
 
 ---
 
 ## 🔧 Configuration
+- Modify `cypress.config.js` for environment-specific settings.  
+- Store reusable data in `/fixtures`.  
+- Use `/pages` for POM-based selectors and page methods.  
 
-Modify cypress.config.js for environment-specific settings.
+---
 
-Store reusable data in /fixtures.
+## ⚡ Getting Started
 
-Use /pages for POM-based selectors and page methods.
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/George-Ashraf-Waguih/CypressRepo.git
+cd CypressRepo
+```
 
+---
 
-
-
-👨‍💻 Author
-George Ashraf
-💼 https://www.linkedin.com/in/george-ashraf/
+## 👨‍💻 Author
+**George Ashraf**  
+💼 [LinkedIn](https://www.linkedin.com/in/george-ashraf/)  
 📧 george.ashraf.waguih@gmail.com
