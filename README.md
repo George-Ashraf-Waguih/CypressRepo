@@ -46,7 +46,6 @@ CypressRepo/
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/George-Ashraf-Waguih/CypressRepo.git
-cd CypressRepo
 ```
 
 ### 2️⃣ Install dependencies
