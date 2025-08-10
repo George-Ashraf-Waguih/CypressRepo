@@ -14,23 +14,18 @@ describe('Login Tests', () => {
     });
     
     it('TC_01_Successfull Login', function() {
-        loginPage.enterUsername(this.user.validUser.username);
-        loginPage.enterPassword(this.user.validUser.password);
-        loginPage.clickLogin();
+        // login command is added in commands.js file
+        cy.login(this.user.validUser.username, this.user.validUser.password)
         homePage.assertLoginSuccess();
     });
 
     it('TC_02_Failed Login username error', function() {
-        loginPage.enterUsername(this.user.invalidUser.username);
-        loginPage.enterPassword(this.user.validUser.password);
-        loginPage.clickLogin();
+        cy.login(this.user.invalidUser.username, this.user.validUser.password)
         loginPage.assertUsernameErrorMessageIsDisplayed();
     });
 
     it('TC_03_Failed Login username error', function() {
-        loginPage.enterUsername(this.user.validUser.username);
-        loginPage.enterPassword(this.user.invalidUser.password);
-        loginPage.clickLogin();
+        cy.login(this.user.validUser.username, this.user.invalidUser.password)
         loginPage.assertPasswordErrorMessageIsDisplayed();
     });
 });
