@@ -49,6 +49,23 @@ git clone https://github.com/George-Ashraf-Waguih/CypressRepo.git
 cd CypressRepo
 ```
 
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Run tests  
+
+**Interactive mode**  
+```bash
+npx cypress open
+```
+
+**Headless mode**  
+```bash
+npx cypress run
+```
+
 ---
 
 ## 👨‍💻 Author
