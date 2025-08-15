@@ -14,7 +14,7 @@ describe('Login Tests', () => {
     });
     
     it('TC_01_Successfull Login', function() {
-        // login command is added in commands.js file
+        // login is a custom command added in commands.js file
         cy.login(this.user.validUser.username, this.user.validUser.password)
         homePage.assertLoginSuccess();
     });
