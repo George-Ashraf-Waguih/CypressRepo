@@ -10,7 +10,7 @@ pipeline {
         
         stage('Install Dependencies') {
             steps {
-                sh 'npm ci' // or npm install
+                sh 'npm install' 
             }
         }
         
