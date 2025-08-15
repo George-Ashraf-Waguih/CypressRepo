@@ -30,7 +30,8 @@ CypressRepo/
 │
 ├── cypress.config.js       # Cypress configuration
 ├── package.json            # Project dependencies
-└── README.md               # Project documentation
+├── README.md               # Project documentation
+└── Jenkinsfile             # Jenkins pipeline configuration
 ```
 
 ---
