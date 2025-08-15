@@ -12,6 +12,7 @@ Designed with **Page Object Model (POM)**, fixtures, reusable commands, and read
 - ✅ **Page Object Model** (POM) structure for maintainability  
 - ✅ Reusable **fixtures** and test data  
 - ✅ Easy **environment configuration**  
+- ✅ automatically capture **screenshots** and record **videos** **only when tests fail**
 - ✅ **Headless & headed** execution modes  
 - ✅ CI/CD ready for **GitHub Actions, Jenkins, GitLab CI**
 
