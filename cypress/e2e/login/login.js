@@ -13,18 +13,18 @@ describe('Login Tests', () => {
         cy.visit('/login')
     });
     
-    it('TC_01_Successfull Login', function() {
+    it('TC_01_Successfull Login', { tags:['smoke', 'regression']}, function() {
         // login is a custom command added in commands.js file
         cy.login(this.user.validUser.username, this.user.validUser.password)
         homePage.assertLoginSuccess();
     });
 
-    it('TC_02_Failed Login username error', function() {
+    it('TC_02_Failed Login username error', { tags:['regression']}, function() {
         cy.login(this.user.invalidUser.username, this.user.validUser.password)
         loginPage.assertUsernameErrorMessageIsDisplayed();
     });
 
-    it('TC_03_Failed Login username error', function() {
+    it('TC_03_Failed Login password error', { tags:['regression']}, function() {
         cy.login(this.user.validUser.username, this.user.invalidUser.password)
         loginPage.assertPasswordErrorMessageIsDisplayed();
     });
