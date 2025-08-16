@@ -1,14 +1,13 @@
 # CypressRepo 🚀  
 ![Cypress](https://img.shields.io/badge/Cypress-12.x-brightgreen?logo=cypress)
 
-A **Cypress automation testing framework** for UI and API testing.  
+A **Cypress automation testing framework** ready to use.
 Designed with **Page Object Model (POM)**, fixtures, reusable commands, and ready for CI/CD integration.
 
 ---
 
 ## 📌 Features
 - ✅ End-to-end **UI automation** with Cypress  
-- ✅ **API testing** support  
 - ✅ **Page Object Model** (POM) structure for maintainability  
 - ✅ Reusable **fixtures** and test data  
 - ✅ Easy **environment configuration**  
